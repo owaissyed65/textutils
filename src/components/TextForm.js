@@ -45,7 +45,7 @@ export default function TextForm(props) {
             rows="8"
             value={text}
             onChange={handleonchange}
-            style={{backgroundColor : props.mode===`dark`?`grey`:`white`,color : props.mode===`dark`?`White`:`black`} }
+            style={{backgroundColor : props.mode===`dark`?`#042743`:`white`,color : props.mode===`dark`?`White`:`black`} }
             >
           </textarea>
 
