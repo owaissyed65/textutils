@@ -1,16 +1,16 @@
 // import logo from './logo.svg';
 import "./App.css";
 import Navbar from "./components/Navbar";
-import About from "./components/About";
+// import About from "./components/About";
 import TextForm from "./components/TextForm";
 import Alert from "./components/Alert";
 import React ,{useState} from 'react'
-import ReactDOM from "react-dom/client";
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+// import ReactDOM from "react-dom/client";
+// import {
+//   BrowserRouter,
+//   Routes,
+//   Route,
+// } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState('light');

@@ -74,7 +74,7 @@ else{
 </div>
 </div>
 <div className="container">
-<button class="btn btn-dark mx-3 my-2" type="button" onClick={toggleStyle} style={myStyle,{borderColor:'black'?'white':'black' }}>{btnText}</button>
+<button class="btn btn-dark mx-3 my-2" type="button" onClick={toggleStyle} style={{borderColor:'black'?'white':'black' }}>{btnText}</button>
 </div>
     </>
   );
